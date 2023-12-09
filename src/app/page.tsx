@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Footer, Header } from "@/components";
 import { Home } from "@/pages";
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
     <div>
       <Header />
       <Home />
+      <Footer />
     </div>
   );
 };

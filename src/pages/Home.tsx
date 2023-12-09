@@ -61,7 +61,7 @@ function Home() {
       <div className="flex px-[13vmax] mt-10">
         <div className="left-contiainer min-w-[50%] mx-4">
           <HeadingBox title="Fill out this form to get a free consultation" />
-          <p>
+          <p className="py-2 text-black max-w-md">
             Timing is just right when you’re ready! Post your query now, and
             we’ll get in touch with you soon!
           </p>
@@ -71,22 +71,27 @@ function Home() {
             <input
               placeholder="Your Name *"
               type="text"
-              className=" p-3 rounded-md bg-[#F5F5F5] mx-2"
+              className="p-3 rounded-md bg-[#F5F5F5] mr-2 w-[50%] text-black"
             />
             <input
               placeholder="Your Email *"
               type="email"
-              className=" p-3 rounded-md bg-[#F5F5F5]"
+              className=" p-3 rounded-md bg-[#F5F5F5] w-[48%] text-black"
             />
             <input
               placeholder="Your General Enquiry"
-              className=" p-3 rounded-md bg-[#F5F5F5] w-[100%]"
+              className=" p-3 rounded-md bg-[#F5F5F5] w-[100%] my-3 text-black"
             />
             <textarea
               placeholder="Please describe what you need *"
-              className=" p-3 rounded-md bg-[#F5F5F5]"
+              className=" p-3 rounded-md bg-[#F5F5F5] w-[100%] h-[10vmax] text-black"
             />
-            <button>SEND</button>
+            <button
+              className="bg-[var(--button-primary)] text-[white] rounded-md font-bold px-4 py-2 my-3 hover:bg-[var(--primary-color)] hover:transition ease-in-out duration-200"
+              type="submit"
+            >
+              SEND
+            </button>
           </form>
         </div>
       </div>
