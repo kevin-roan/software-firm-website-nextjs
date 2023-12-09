@@ -80,7 +80,7 @@ function Footer() {
           height={"100"}
           className="self-center"
         />
-        <p className="self-center text-sm">
+        <p className="self-center text-sm ">
           Terms and Conditions | Privacy Policy | Copyright © 2023 Imagino
           Solutions Pvt Ltd
         </p>
