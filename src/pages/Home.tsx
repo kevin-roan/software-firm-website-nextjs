@@ -14,7 +14,7 @@ const services_list = [
 function Home() {
   return (
     <div className="home-container">
-      <div className="px-[13vmax] flex mt-10">
+      <div className="lg:px-[13vmax] lg:flex mt-10 lg:flex-row">
         <div className="left-contiainer min-w-[50%] mx-4">
           <HeadingBox title="Software Consulting & Support Service" />
           <div>
@@ -34,8 +34,8 @@ function Home() {
             desc="It’s our job to keep our client’s website fresh as it is a great marketing and sales tool that creates a lasting impression of the company. We provide it with all the support so that it does not become obsolete. "
           />
         </div>
-        <div className="right-contiainer">
-          <p>
+        <div className="right-contiainer flex flex-col-reverse lg:block ">
+          <p className="px-4">
             Software consulting is a comprehensive service that provides
             businesses with expert guidance and support on all aspects of
             software, from strategy and planning to development, deployment, and
@@ -44,11 +44,11 @@ function Home() {
             and industries, enabling us to deliver tailored solutions that
             address your specific business needs and challenges.
           </p>
-          <div className="mt-6 mb-20">
-            <button className="bg-[var(--button-primary)] text-[white] p-2 rounded-md text-sm">
+          <div className="m-10 flex">
+            <button className="bg-[var(--button-primary)] text-[white] p-2 rounded-md text-sm w-[50%]">
               Get a FREE Consultation
             </button>
-            <button className="bg-white text-[var(--button-primary)] border-[1px] border-[var(--button-primary)] p-2 text-sm mx-4 rounded-md">
+            <button className="bg-white text-[var(--button-primary)] border-[1px] border-[var(--button-primary)] p-2 text-sm mx-4 rounded-md w-[50%]">
               Live chat with consultant
             </button>
           </div>
@@ -58,7 +58,7 @@ function Home() {
           />
         </div>
       </div>
-      <div className="flex px-[13vmax] mt-10">
+      <div className="lg:px-[13vmax] mt-10 lg:flex">
         <div className="left-contiainer min-w-[50%] mx-4">
           <HeadingBox title="Fill out this form to get a free consultation" />
           <p className="py-2 text-black max-w-md">
@@ -66,17 +66,17 @@ function Home() {
             we’ll get in touch with you soon!
           </p>
         </div>
-        <div className="text-white">
+        <div className="text-white p-4 lg:p-0">
           <form>
             <input
               placeholder="Your Name *"
               type="text"
-              className="p-3 rounded-md bg-[#F5F5F5] mr-2 w-[50%] text-black"
+              className="p-3 rounded-md bg-[#F5F5F5] mr-2 w-[100%] lg:w-[50%] text-black"
             />
             <input
               placeholder="Your Email *"
               type="email"
-              className=" p-3 rounded-md bg-[#F5F5F5] w-[48%] text-black"
+              className=" p-3 rounded-md bg-[#F5F5F5] mt-4 w-[100%] lg:w-[48%] text-black"
             />
             <input
               placeholder="Your General Enquiry"

@@ -8,8 +8,8 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="footer bg-black  px-[13vmax] py-10">
-      <div className="footer-container text-white flex justify-between">
+    <div className="footer bg-black  lg:px-[13vmax] px-2 py-10 ">
+      <div className="footer-container text-white justify-between lg:flex">
         <div>
           <h1 className="font-bold">Company</h1>
           <p className="my-4 text-[#9E9E9E]">
@@ -17,7 +17,7 @@ function Footer() {
           </p>
           <p className="my-4 text-[#9E9E9E]">info@bhaisoluations.com</p>
           <p className="my-4 text-[#9E9E9E]">+91 6339394841</p>
-          <div className="flex gap-4 text-[#9E9E9E] ">
+          <div className="flex gap-4 text-[#9E9E9E] my-4">
             <FaInstagram />
             <FaFacebook />
             <CiTwitter />
@@ -25,50 +25,52 @@ function Footer() {
             <FaLinkedin />
           </div>
         </div>
-        <div>
-          <h1 className="font-bold mb-4">Company</h1>
-          <ul className="text-[#9E9E9E]">
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-            <li>Blog</li>
-          </ul>
-        </div>
+        <div className="footer-links lg:flex grid grid-cols-2 gap-4 ">
+          <div>
+            <h1 className="font-bold mb-4">Company</h1>
+            <ul className="text-[#9E9E9E]">
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Careers</li>
+              <li>Contact Us</li>
+              <li>Blog</li>
+            </ul>
+          </div>
 
-        <div>
-          <h1 className="font-bold mb-4">Top Pages</h1>
-          <ul className="text-[#9E9E9E]">
-            <li>Software Consulting</li>
-            <li>Custom Web Applications</li>
-            <li>Web Design Service</li>
-            <li>Hubspot Services</li>
-            <li>Website Maintenance Services</li>
-            <li>Mobile App Design</li>{" "}
-          </ul>
-        </div>
-        <div>
-          <h1 className="font-bold mb-4">Technologies </h1>
-          <ul className="text-[#9E9E9E]">
-            <li>Hubspot</li>
-            <li>Laravel</li>
-            <li>WordPress</li>
-            <li>Squarespace</li>
-            <li>Android</li>
-            <li>IOS</li>
-            <li>Flutter</li>{" "}
-          </ul>
-        </div>
+          <div>
+            <h1 className="font-bold mb-4">Top Pages</h1>
+            <ul className="text-[#9E9E9E]">
+              <li>Software Consulting</li>
+              <li>Custom Web Applications</li>
+              <li>Web Design Service</li>
+              <li>Hubspot Services</li>
+              <li>Website Maintenance Services</li>
+              <li>Mobile App Design</li>{" "}
+            </ul>
+          </div>
+          <div>
+            <h1 className="font-bold mb-4">Technologies </h1>
+            <ul className="text-[#9E9E9E]">
+              <li>Hubspot</li>
+              <li>Laravel</li>
+              <li>WordPress</li>
+              <li>Squarespace</li>
+              <li>Android</li>
+              <li>IOS</li>
+              <li>Flutter</li>{" "}
+            </ul>
+          </div>
 
-        <div>
-          <h1 className="font-bold mb-4">Services</h1>
-          <ul className="text-[#9E9E9E]">
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-            <li>Blog</li>
-          </ul>
+          <div>
+            <h1 className="font-bold mb-4">Services</h1>
+            <ul className="text-[#9E9E9E]">
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Careers</li>
+              <li>Contact Us</li>
+              <li>Blog</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="footer-credits flex flex-col text-white">
