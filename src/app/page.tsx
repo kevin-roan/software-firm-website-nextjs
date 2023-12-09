@@ -1,5 +1,13 @@
+import { Header } from "@/components";
+import { Home } from "@/pages";
+
 const App = () => {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <Header />
+      <Home />
+    </div>
+  );
 };
 
 export default App;
