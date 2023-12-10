@@ -9,7 +9,11 @@ import "react-modern-drawer/dist/index.css";
 import Image from "next/image";
 
 interface DrawerProps {
-  nav_links: object;
+  nav_links: NavLink[];
+}
+interface NavLink {
+  path: string;
+  title: string;
 }
 
 const App = ({ nav_links }: DrawerProps) => {
@@ -44,7 +48,7 @@ const App = ({ nav_links }: DrawerProps) => {
         </div>
         <hr />
         <ul className="flex flex-col gap-4 my-4">
-          {nav_links.map((item, index) => (
+          {nav_links.map((item: NavLink, index: number) => (
             <li
               key={index}
               className="transition-all duration-100 ease-in-out text-xl rounded-lg px-4 text-center text-black hover:text-[var(--primary-color)]"
