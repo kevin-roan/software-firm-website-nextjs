@@ -3,13 +3,29 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Link from "next/link";
 
 const nav_links = [
-  "Software Consulting",
-  "Services",
-  "Reviews",
-  "Contact Us",
-  "Support",
+  {
+    path: "/",
+    title: "Software Consulting",
+  },
+  {
+    path: "/services",
+    title: "Services",
+  },
+  {
+    path: "/reviews",
+    title: "Reviews",
+  },
+  {
+    path: "/contact",
+    title: "Contact Us",
+  },
+  {
+    path: "/support",
+    title: "Support",
+  },
 ];
 
 const Header = () => {
@@ -32,7 +48,7 @@ const Header = () => {
               key={index}
               className="hover:border-b-2 border-[var(--button-primary)] transition-all duration-100 ease-in-out text-xs"
             >
-              {item}
+              <Link href={item.path}>{item.title}</Link>
             </li>
           ))}
         </ul>

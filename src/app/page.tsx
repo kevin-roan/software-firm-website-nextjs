@@ -1,13 +1,11 @@
-import { Footer, Header } from "@/components";
-import { Home } from "@/pages";
+import Layout from "@/components/Layout";
+import Home from "./home/page";
 
 const App = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <Home />
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
