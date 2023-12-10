@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "freesvg.org",
       },
+      {
+        protocol: "https",
+        hostname: "imaginosolutions.com",
+      },
     ],
   },
 };
