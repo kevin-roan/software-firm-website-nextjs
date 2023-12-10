@@ -1,9 +1,7 @@
-"use client";
 import React from "react";
 import Image from "next/image";
-import { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
 import Link from "next/link";
+import { Drawer } from ".";
 
 const nav_links = [
   {
@@ -29,8 +27,6 @@ const nav_links = [
 ];
 
 const Header = () => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
   return (
     <div className="border-[1px] border-b-[grey] lg:px-[13vmax] px-[4vmax] flex items-center justify-between sticky top-0 z-999 bg-white">
       <div className="image-contiainer">
@@ -54,7 +50,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="lg:hidden">
-        <RxHamburgerMenu onClick={() => setIsDrawerOpen(!isDrawerOpen)} />
+        <Drawer nav_links={nav_links} />
       </div>
     </div>
   );

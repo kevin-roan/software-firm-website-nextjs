@@ -42,7 +42,7 @@ function page() {
             one of our prompt support channels below.
           </p>
         </div>
-        <div className="flex gap-2 lg:flex-row flex-col my-4 mx-4">
+        <div className="flex gap-2 lg:flex-row md:flex-row flex-col my-4 mx-4">
           {serviceTypes.map((item, index) => (
             <SupportCard
               key={index}
