@@ -52,9 +52,10 @@ function Home() {
               Live chat with consultant
             </button>
           </div>
+
           <Card
             title="Website Migration Service"
-            desc="At Imagino, we offer website migration service -either moving from an old host or moving within accounts. Migrating a website from one host to another is quite an uphill task. If not done with utmost care, it can do more harm to the business. Our well experienced team at Imagino can effortlessly move your website to another web host without significant downtime or adverse impact on the site. "
+            desc="At Our company, we offer website migration service -either moving from an old host or moving within accounts. Migrating a website from one host to another is quite an uphill task. If not done with utmost care, it can do more harm to the business. Our well experienced team at Our Company can effortlessly move your website to another web host without significant downtime or adverse impact on the site. "
           />
         </div>
       </div>

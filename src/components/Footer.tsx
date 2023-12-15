@@ -13,9 +13,9 @@ function Footer() {
         <div>
           <h1 className="font-bold">Company</h1>
           <p className="my-4 text-[#9E9E9E]">
-            No.25/2084 A1, 1’Floor, Kozhikode Kerala 673016
+            1st Floor Matrix Complex, Kottakal Road, Kozhikode Kerala 673609
           </p>
-          <p className="my-4 text-[#9E9E9E]">info@bhaisoluations.com</p>
+          <p className="my-4 text-[#9E9E9E]">info@infotechsolutions.com</p>
           <p className="my-4 text-[#9E9E9E]">+91 6339394841</p>
           <div className="flex gap-4 text-[#9E9E9E] my-4">
             <FaInstagram />
@@ -76,14 +76,14 @@ function Footer() {
       <div className="footer-credits flex flex-col text-white">
         <hr className="my-8 border-t-1 border-[grey]" />
         <Image
-          src="https://imaginosolutions.com/wp-content/uploads/imagino-logo.svg"
+          src="https://kenvue.brightspotcdn.com/63/6d/2f89fceb40f588726ee2091439e4/kenvue-logo-white-rgb.svg"
           alt="logo"
           width={"140"}
           height={"100"}
-          className="self-center"
+          className="self-center p-4"
         />
         <p className="self-center text-sm ">
-          Terms and Conditions | Privacy Policy | Copyright © 2023 Imagino
+          Terms and Conditions | Privacy Policy | Copyright © 2023 Company
           Solutions Pvt Ltd
         </p>
       </div>

@@ -35,7 +35,7 @@ const App = ({ nav_links }: DrawerProps) => {
       >
         <div className="flex items-center justify-between mx-4">
           <Image
-            src="https://imaginosolutions.com/wp-content/uploads/imagino-logo.svg"
+            src="https://logowik.com/content/uploads/images/kenvue-health-company2292.logowik.com.webp"
             alt="logoiamge"
             width="100"
             height="100"

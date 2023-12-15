@@ -8,6 +8,14 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "www.webfx.com",
+      },
+      {
+        protocol: "https",
+        hostname: "logowik.com",
+      },
+      {
+        protocol: "https",
         hostname: "imaginosolutions.com",
       },
     ],

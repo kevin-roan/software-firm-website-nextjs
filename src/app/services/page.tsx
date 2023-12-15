@@ -20,7 +20,7 @@ const services = [
   },
   {
     title: "Software Consulting & Support",
-    desc: "Imagino provides the customer with best support options so that they can ...",
+    desc: "We provides the customer with best support options so that they can ...",
     imageUrl: "https://freesvg.org/img/SC0006.Scribble-telephone.png",
   },
 ];

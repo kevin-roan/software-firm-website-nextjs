@@ -31,9 +31,9 @@ const Header = () => {
     <div className="border-[1px] border-b-[grey] lg:px-[13vmax] px-[4vmax] flex items-center justify-between sticky top-0 z-999 bg-white">
       <div className="image-contiainer">
         <Image
-          src="https://imaginosolutions.com/wp-content/uploads/imagino-logo.svg"
+          src="https://logowik.com/content/uploads/images/kenvue-health-company2292.logowik.com.webp"
           alt="logo"
-          width={"140"}
+          width={"100"}
           height={"100"}
         />
       </div>

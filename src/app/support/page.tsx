@@ -54,8 +54,8 @@ function page() {
         </div>
         <div className="flex bg-zinc-100 rounded-md p-5 m-4">
           <p className="text-sm">
-            Imagino provides the customer with best support options so that they
-            can know the exact status of their project and actively take part in
+            We provides the customer with best support options so that they can
+            know the exact status of their project and actively take part in
             making the project a success. Our client portal provides the clients
             access to their projects, contracts, services and account so as to
             improve transparency. Besides, it streamlines the process of
