@@ -70,7 +70,7 @@ function Reviews() {
           <h4 className="font-extrabold text-gray-400">TESTIMONIALS</h4>
           <h1 className="font-semibold text-4xl text-center">
             Why do people praise about{" "}
-            <span className="text-[var(--button-primary)]">Imagino?</span>{" "}
+            <span className="text-[var(--button-primary)]">CompanyName?</span>{" "}
           </h1>
           <div className="lg:flex lg:flex-wrap justify-center">
             <ReviewCard />

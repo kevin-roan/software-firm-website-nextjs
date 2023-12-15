@@ -31,11 +31,11 @@ function page() {
       <div className="lg:px-[13vmax] my-5">
         <div>
           <h1 className="text-center text-5xl font-semibold py-4">
-            Imagino Customer{" "}
+            CompanyName Customer{" "}
             <span className="text-[var(--button-primary)]">Support</span>
           </h1>
           <p className="text-center">
-            Welcome to the Imagino Customer Support hub! Here, we prioritize
+            Welcome to the Companyname Customer Support hub! Here, we prioritize
             your satisfaction by providing seamless assistance and
             troubleshooting for your needs. Our dedicated team is committed to
             addressing your concerns promptly and effectively. Please try using
